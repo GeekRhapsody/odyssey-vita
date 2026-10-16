@@ -44,7 +44,3 @@ accent = "#66C6FF"
 
 [motion]
 idle_bob = 1.5                          # the pebbles float a little more than the launcher's own items
-
-# logos/ names each image after its system's id; Bally Astrocade's id is astrocde.
-[systems.astrocde]
-logo = "logos/astrocade.webp"
