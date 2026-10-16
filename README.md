@@ -18,6 +18,6 @@ Game templates and the systems' colours are the launcher's base theme's.
 
 ## Credits
 
-The system logos (`logos/`) come from [**canvas-es-de**](https://github.com/Siddy212/canvas-es-de) by [Siddy212](https://github.com/Siddy212), a theme for ES-DE; canvas-es-de credits its original artwork and layouts to fagnerpc. They're used under the [Creative Commons Attribution-NonCommercial-ShareAlike 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) licence (CC BY-NC-SA 2.0). **Changes:** each image was cropped to its content, scaled to at most 512 pixels on its longer side and converted to WebP, and a few were renamed to match Odyssey Launcher's system ids. The adapted logos are shared under the same licence.
+The system logos (`logos/`) come from [**canvas-es-de**](https://github.com/Siddy212/canvas-es-de) by [Siddy212](https://github.com/Siddy212), a theme for ES-DE; canvas-es-de credits its original artwork and layouts to fagnerpc. They're used under the [Creative Commons Attribution-NonCommercial-ShareAlike 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) licence (CC BY-NC-SA 2.0). 
 
 The logos show console makers' and publishers' trademarks, which belong to their owners. PlayStation Vita is a trademark of Sony Interactive Entertainment; this theme isn't affiliated with or endorsed by Sony.
