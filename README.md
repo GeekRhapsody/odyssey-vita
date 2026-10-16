@@ -1,6 +1,6 @@
 # Odyssey Vita
 
-A theme for [Odyssey Launcher](https://github.com/GeekRhapsody/OdysseyLauncher) inspired by the PlayStation Vita's home screen: every system is a glossy white pebble with its logo on its front, floating over a bright blue background, with deep blue menus.
+A theme for [Odyssey Launcher](https://github.com/GeekRhapsody/OdysseyLauncher) inspired by the PlayStation Vita's home screen: every system is a glassy pebble the colour of its logo, the logo on its front, floating over a bright blue background, with deep blue menus.
 
 ## Installing
 
@@ -11,7 +11,7 @@ By hand: put this folder in the launcher's `themes` folder as `odyssey-vita` (`%
 ## What's in it
 
 - `theme.toml`: the look (background, lights, menus) and the pebble for every system.
-- `models/pebble.glb`: the pebble, 9,024 triangles. Its front is a `label` slot showing the system's logo.
+- `models/pebble.glb`: the pebble, a glass lens of 12,096 triangles. All of it is the `label` slot: the system's logo is projected onto its front (and, mirrored, its back, as if seen through the glass), and the rim takes the logo's colour.
 - `logos/<system id>.webp`: a logo for each of the launcher's built-in systems, and for Favourites, Recently played and All games. A system without one shows its name on its pebble. To give one a logo of your own, add `logos/<its id>.png` (or `.jpg` or `.webp`); a file you add stays when the theme updates.
 
 Game templates and the systems' colours are the launcher's base theme's.

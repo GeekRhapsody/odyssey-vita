@@ -1,5 +1,5 @@
-# Odyssey Vita: the PS Vita's home screen. Every system is a glossy white pebble with its logo on its front, over a
-# bright blue background. One model for every system: each pebble's image is its logo, from logos/<system id>.webp.
+# Odyssey Vita: the PS Vita's home screen. Every system is a glassy pebble the colour of its logo, the logo on its front,
+# over a bright blue background. One model for every system: each pebble's image is its logo, from logos/<system id>.webp.
 # Everything else (the game templates and the systems' colours) is Memory Card's, the launcher's base theme.
 format = 1
 name = "Odyssey Vita"
@@ -31,8 +31,8 @@ colour = "#6FA8FF"
 energy = 0.35
 
 [defaults]
-system_model = "models/pebble.glb"      # a white glass pebble whose front is a label slot
-tint_system_model = false               # every pebble stays white: its logo tells it apart
+system_model = "models/pebble.glb"      # a glass lens that is all label slot: the logo on its front, its colour all round
+tint_system_model = false               # it has no plain material to tint: the logo gives each pebble its colour
 
 [defaults.system_slots]
 label = ["logo", "generated"]           # the system's logo, or its name printed when there's no logo
