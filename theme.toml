@@ -1,0 +1,50 @@
+# Odyssey Vita: the PS Vita's home screen. Every system is a glossy white pebble with its logo on its front, over a
+# bright blue background. One model for every system: each pebble's image is its logo, from logos/<system id>.webp.
+# Everything else (the game templates and the systems' colours) is Memory Card's, the launcher's base theme.
+format = 1
+name = "Odyssey Vita"
+author = "Claudio Filipe"
+
+[look.background]                       # the Vita's blue, lighter low on the left where its wave of light runs
+top_left     = "#2F63DA"
+top_right    = "#1C3DB5"
+bottom_left  = "#86BDF2"
+bottom_right = "#1A45B0"
+
+[look.ambient]
+colour = "#4A5878"
+energy = 1.0
+
+[[look.lights]]                         # the key light, from above and a little left: the shine on the pebbles' tops
+direction = [0.3, -0.8, -0.5]
+colour = "#FFFFFF"
+energy = 1.1
+
+[[look.lights]]                         # a cool fill from the left (from the right, its reflection lines up with the focused item's sway)
+direction = [0.7, -0.2, -0.6]
+colour = "#CFE2FF"
+energy = 0.5
+
+[[look.lights]]                         # light from below, off the blue
+direction = [0.0, 0.9, -0.4]
+colour = "#6FA8FF"
+energy = 0.35
+
+[defaults]
+system_model = "models/pebble.glb"      # a white glass pebble whose front is a label slot
+tint_system_model = false               # every pebble stays white: its logo tells it apart
+
+[defaults.system_slots]
+label = ["logo", "generated"]           # the system's logo, or its name printed when there's no logo
+
+[ui.menu]                               # deep blue menus with white text and a sky-blue focus
+background = "#0B1E4A"
+text = "#F2F6FF"
+accent = "#66C6FF"
+
+[motion]
+idle_bob = 1.5                          # the pebbles float a little more than the launcher's own items
+
+# logos/ names each image after its system's id; Bally Astrocade's id is astrocde.
+[systems.astrocde]
+logo = "logos/astrocade.webp"

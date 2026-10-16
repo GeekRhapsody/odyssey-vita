@@ -1,0 +1,6 @@
+*.glb binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.toml text eol=lf
+*.md text eol=lf
